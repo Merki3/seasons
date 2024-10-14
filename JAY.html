@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jay.css">
+    <title>Play YouTube Video</title>
+</head>
+<body>
+    <div class="emoji-background" style="display: none;"></div> <!-- Hidden initially -->
+    <div class="container">
+        <button id="playVideo" class="beautiful-button">Play Song</button>
+        <div id="messageContainer" class="message-container" style="display: none;">
+            <h2 class="message">Miss You :<</h2> <!-- Message text -->
+            <div class="tenor-gif-embed" data-postid="26123387" data-share-method="host" data-aspect-ratio="1.15108" data-width="80%">
+                <a href="https://tenor.com/view/miss-you-gif-26123387">Miss You Sticker</a> from 
+                <a href="https://tenor.com/search/miss-stickers">Miss Stickers</a>
+            </div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+        <div id="videoContainer" class="video-container" style="display: none;">
+            <iframe id="video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="jay.js"></script>
+</body>
+</html>
